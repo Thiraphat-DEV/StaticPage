@@ -1,0 +1,55 @@
+
+header{
+    background: url(../img/avery-cocozziello-6EzEQUMF2h4-unsplash.jpg) no-repeat center center;
+    background-size:cover ;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 500px;
+}
+.features-icons{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.features-icons-icon{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:#40ade5 ;
+}
+.showcase-img{
+    background-size: cover;
+    min-height: 30rem;
+}
+.showcase-text {
+    padding:8rem;
+}
+
+.testimonials{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.testimonials .testimonials-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 10px #e5e5;
+}
+
+.call-to-action{
+    background: url(../img/j-lee-ijUhFft-V0Q-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
+footer{
+    background:#bbbbb4;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+/* screen webpage */
+@media only screen and (max-width:360px) {
+    .showcase-text {
+        padding:4rem;
+    }
+    .showcase-img{
+        min-height:15rem;
+    }
+}
